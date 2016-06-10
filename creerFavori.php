@@ -30,7 +30,7 @@
 					$src = imagecreatefromjpeg($filename);
 				}
 				imagecopyresampled($image_p, $src, 0, 0, 0, 0, $new_width, $new_height, $width, $height);
-				$ligne = '<li><a href="'.$_POST["url"].'"><img src="./images/'.$image.'" alt="'.$_POST["nom"].'"></a></li>';
+				$ligne = '<li><a href="'.$_POST["url"].'"><img src="./images/'.$image.'" alt="'.$_POST["nom"].'"></a></li>'.PHP_EOL;
 				$resultat = file_put_contents($file, $ligne, FILE_APPEND);
 			}
 			echo "<p> Redirection vers la page des signets dans 2 secondes";
@@ -50,8 +50,8 @@
 			fclose($file);
 			$contenu = explode(PHP_EOL, $contenu);
 			foreach($contenu as $line => $key){
-				if(preg_match("#".$_POST["motcle"]."#", $contenu[$line])){
-					str_replace($contenu[$line], $contenu[$line], "");
+				if(strrpos($contenu[$line], $_POST["motcle"])!==FALSE){
+					unset($contenu[$line]);
 				}
 			}
 			$contenu = implode(PHP_EOL, $contenu);
