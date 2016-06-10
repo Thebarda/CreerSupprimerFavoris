@@ -12,8 +12,8 @@ Cliquez sur le bouton "Config" au niveau de la ligne "apache".
 
 
 ## Etape 2 - Mise en place du site
-Videz le dossier **C:\xampp\htdocs**
-Téléchargez le site puis extraire l'archive dans **C:\xampp\htdocs**.
+Videz le dossier **C:\xampp\htdocs**.
+Téléchargez le site puis copier le contenu du dossier **CreerSupprimerFavoris** de l'archive dans **C:\xampp\htdocs**.
 
 ##Etape 3 - Mise en place du module complémentaire
 Définir **localhost/index.php**
