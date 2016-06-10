@@ -10,7 +10,7 @@
 	?>
 	<form method="post" action="#" enctype="multipart/form-data">
 		<label>Url : </label><input type="text" cols="50" name="url"><br>
-		<label>Images (Dimensionner l'image en 89 * 89) : </label><input type="file" cols="30" name="img"><br>
+		<label>Images (Dimensionner l'image en 89 pixels * 89 pixels) : </label><input type="file" cols="30" name="img"><br>
 		<label>Nom du site : </label><input type="text" cols="20" name="nom"><br>
 		<input type="submit" value="Valider" name="ok">
 	</form>
@@ -41,7 +41,7 @@
 	<hr>
 	<?php if(empty($_POST["motcle"])){ ?>
 	<form method="post" action="#">
-		<label> mot clé du signet à supprimer : </label><input type="text" cols="20" name="motcle">
+		<label> nom du favori à supprimer : </label><input type="text" cols="20" name="motcle">
 	</form>
 	<?php
 		}else{

@@ -15,7 +15,7 @@
 			echo $contenu;
 		}
 	?>
-	<a id="bouton" href="./creerfavori.php"><b>Créer/supprimer<br> un signet</b></a>
+	<a id="bouton" href="./creerfavori.php"><b>Créer/supprimer<br> un favori</b></a>
 			
 </body>
 </html>
