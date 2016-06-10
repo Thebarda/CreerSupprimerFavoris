@@ -1,7 +1,7 @@
 #Intro
 Ce site vous permet de créer, supprimer et d'utiliser vos favoris au moyen d'images.
 
-![image accueil](C:\Users\Tom Darneix\Pictures\Capture.png)
+![image accueil](https://www.dropbox.com/s/1zs7mvuoul99go9/Capture.PNG?dl=0)
 
 Fonctionne uniquement sous Mozilla firefox, Google Chrome. (Opera ?)
 
