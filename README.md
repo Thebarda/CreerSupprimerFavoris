@@ -21,7 +21,7 @@ A chaque démarrage de windows, le serveur web va s'activer. Cela va vous permet
 Videz le dossier **C:\xampp\htdocs**.
 Téléchargez le site puis copiez le contenu du dossier **CreerSupprimerFavoris** de l'archive dans **C:\xampp\htdocs**.
 
-##Etape 3 - Mise en place du module complémentaire
+##Etape 3 - Installation du module complémentaire
 Définir **localhost/index.php**
 Ce module vous permettra d'ouvrir la page de vos favoris à chaque fois que vous ouvrirez un nouvel onglet.
 Sous Firefox, vous pouvez le télécharger en suivant [ce lien](https://addons.mozilla.org/fr/firefox/addon/new-tab-override/?src=search)
