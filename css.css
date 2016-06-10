@@ -1,0 +1,30 @@
+li{
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 1rem;
+}
+
+li>a>img{
+	border-radius: 10px;
+}
+
+li:hover{
+	transform : scale(1.1);
+}
+
+body{
+	padding: 3rem;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	color: black;
+}
+
+#bouton{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	background-color: rgba(255, 255, 255, 0.3);
+	margin-top: -5rem;
+	margin-left: 2rem;
+	padding: 1rem;
+}
