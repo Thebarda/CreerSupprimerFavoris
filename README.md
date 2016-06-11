@@ -1,3 +1,7 @@
+##Logs
+###11/06/2016
+V1 - la première version du site. Dans la prochaine version la suppression ce fera par drag'n drop
+
 #Intro
 Ce site vous permet de créer, supprimer et d'utiliser vos favoris au moyen d'images.
 
