@@ -16,6 +16,6 @@
 		}
 	?>
 	<a id="bouton" href="./creerfavori.php"><b>Créer/supprimer<br> un favori</b></a>
-			
+			<p>salut</p>
 </body>
 </html>
